@@ -1,0 +1,299 @@
+[
+    {
+        "name": "Accu 2004",
+        "type": "Conference",
+        "location": { "city": "Oxford", "country": "UK" },
+        "url": "http://accu.org/index.php/conferences/accu_conference_2004"
+    },
+    {
+        "name": "Accu 2007",
+        "type": "Conference",
+        "location": { "city": "Oxford", "country": "UK" },
+        "url": "http://accu.org/index.php/conferences/accu_conference_2007"
+    },
+    {
+        "name": "Accu 2009",
+        "type": "Conference",
+        "location": { "city": "Oxford", "country": "UK" },
+        "url": "http://accu.org/index.php/conferences/accu_conference_2009"
+    },
+    {
+        "name": "Accu 2010",
+        "type": "Conference",
+        "location": { "city": "Oxford", "country": "UK" },
+        "url": "http://accu.org/index.php/conferences/accu_conference_2010"
+    },
+    {
+        "name": "Accu 2011",
+        "type": "Conference",
+        "location": { "city": "Oxford", "country": "UK" },
+        "url": "http://accu.org/index.php/conferences/accu_conference_2011"
+    },
+    {
+        "name": "Accu 2012",
+        "type": "Conference",
+        "location": { "city": "Oxford", "country": "UK" },
+        "url": "http://accu.org/index.php/conferences/accu_conference_2012"
+    },
+    {
+        "name": "Accu 2013",
+        "type": "Conference",
+        "location": { "city": "Bristol", "country": "UK" },
+        "url": "http://accu.org/index.php/conferences/accu_conference_2013"
+    },
+    {
+        "name": "Accu 2014",
+        "type": "Conference",
+        "location": { "city": "Bristol", "country": "UK" },
+        "url": "http://accu.org/index.php/conferences/accu_conference_2014"
+    },
+    {
+        "name": "Accu 2015",
+        "type": "Conference",
+        "location": { "city": "Bristol", "country": "UK" },
+        "url": "http://accu.org/index.php/conferences/accu_conference_2015"
+    },
+    {
+        "name": "Accu 2016",
+        "type": "Conference",
+        "location": { "city": "Bristol", "country": "UK" },
+        "url": "http://accu.org/index.php/conferences/accu_conference_2016"
+    },
+    {
+        "name": "Accu 2017",
+        "type": "Conference",
+        "location": { "city": "Bristol", "country": "UK" },
+        "url": "http://accu.org/index.php/conferences/accu_conference_2017"
+    },
+    {
+        "name": "Accu Bristol",
+        "type": "Meetup",
+        "location": { "city": "Bristol", "country": "UK" },
+        "url": "https://www.meetup.com/ACCU-Bristol"
+    },
+    {
+        "name": "Accu London",
+        "type": "Meetup",
+        "location": { "city": "London", "country": "UK" },
+        "url": "http://www.meetup.com/ACCULondon"
+    },
+    {
+        "name": "Accu Oxford",
+        "type": "Meetup",
+        "location": { "city": "Oxford", "country": "UK" },
+        "url": "http://www.meetup.com/ACCU-Oxford"
+    },
+    {
+        "name": "Accu Cambridge",
+        "type": "Meetup",
+        "location": { "city": "Cambridge", "country": "UK" },
+        "url": "https://www.meetup.com/ACCU-Cambridge"
+    },
+    {
+        "name": "Agile On The Beach",
+        "type": "Conference",
+        "location": { "city": "Falmouth", "country": "UK" },
+        "url": "http://agileonthebeach.com"
+    },
+    {
+        "name": "AppDevCon 2017",
+        "type": "Conference",
+        "location": { "city": "Amsterdam", "country": "Netherlands" },
+        "url": "http://appdevcon.nl"
+    },
+    {
+        "name": "Aylesbury Testers",
+        "type": "Meetup",
+        "location": { "city": "Aylesbury", "country": "UK" },
+        "url": "http://www.meetup.com/SoftwareTestingClub/events/223732954/?a=ro2_gnl&gj=ro2_e&rv=ro2_e&_af=event&_af_eid=223732954&https=off"
+    },
+    {
+        "name": "BCS Edinburgh",
+        "type": "Meetup",
+        "location": { "city": "Edinburgh", "country": "UK" },
+        "url": "http://edinburgh.bcs.org/events"
+    },
+    {
+        "name": "CppCast",
+        "type": "Podcast",
+        "url": "http://cppcast.com"
+    },
+    {
+        "name": "CppCon 2015",
+        "type": "Conference",
+        "location": { "city": "Bellevue, Washington", "country": "USA" },
+        "url": "http://cppcon.com"
+    },
+    {
+        "name": "F#unctional Londoners",
+        "type": "Meetup",
+        "location": { "city": "London", "country": "UK" },
+        "url": "http://www.meetup.com/FSharpLondon"
+    },
+    {
+        "name": "London iOS Developer's Group",
+        "type": "Meetup",
+        "location": { "city": "London", "country": "UK" },
+        "url": "https://www.linkedin.com/groups/London-iOS-Developer-Group-1798655/about"
+    },
+    {
+        "name": "MeetingC++",
+        "type": "Conference",
+        "location": { "city": "Berlin", "country": "Germany" },
+        "url": "http://meetingcpp.com/index.php/mcpp2014.html"
+    },
+    {
+        "name": "MeetingC++",
+        "type": "Conference",
+        "location": { "city": "Berlin", "country": "Germany" },
+        "url": "https://meetingcpp.com/index.php/schedule16.html"
+    },
+    {
+        "name": "MeetingC++ London",
+        "type": "Meetup",
+        "location": { "city": "London", "country": "UK" }
+    },
+    {
+        "name": "Mobile East",
+        "type": "Conference",
+        "location": { "city": "Cambridge", "country": "UK" },
+        "url": "http://mobileeast.net/me2012/"
+    },
+    {
+        "name": "Munich C++ User Group",
+        "type": "Meetup",
+        "location": { "city": "Munich", "country": "Germany" },
+        "url": "https://www.meetup.com/MUCplusplus/"
+    },
+    {
+        "name": "NDC London",
+        "type": "Conference",
+        "location": { "city": "London", "country": "UK" },
+        "url": "http://ndc-london.com"
+    },
+    {
+        "name": "NDC Oslo",
+        "type": "Conference",
+        "location": { "city": "Oslo", "country": "Norway" },
+        "url": "http://ndcoslo.com"
+    },
+    {
+        "name": "NorDev",
+        "type": "Meetup",
+        "location": { "city": "Norwich", "country": "UK" },
+        "url": "http://www.meetup.com/Norfolk-Developers-NorDev"
+    },
+    {
+        "name": "NorDevCon",
+        "type": "Conference",
+        "location": { "city": "Norwich", "country": "UK" },
+        "url": "http://www.nordevcon.com"
+    },
+    {
+        "name": "NorDevCon",
+        "type": "Conference",
+        "location": { "city": "Norwich", "country": "UK" },
+        "url": "http://www.nordevcon.com/nordevcon2014"
+    },
+    {
+        "name": "QCon",
+        "type": "Conference",
+        "location": { "city": "London", "country": "UK" },
+        "url": "https://qconlondon.com/london-2016/index.html"
+    },
+    {
+        "name": "Scandinavian Developers Conference",
+        "type": "Conference",
+        "location": { "city": "Gothenburg", "country": "Sweden" },
+        "url": "http://www.scandevconf.se/2013/"
+    },
+    {
+        "name": "Seattle F# Meetup",
+        "type": "Meetup",
+        "location": { "city": "Redmond", "country": "USA" },
+        "url": "http://www.meetup.com/FSharpSeattle"
+    },
+    {
+        "name": "Software East",
+        "type": "Conference",
+        "location": { "city": "Cambridge", "country": "UK" },
+        "url": "http://www.linkedin.com/groups/Software-East-3874685?home=&gid=3874685&trk=anet_ug_hm"
+    },
+    {
+        "name": "St. Petersburg C++ User Group",
+        "type": "Meetup",
+        "location": { "city": "St. Petersburg", "country": "Russia" },
+        "url": "http://www.meetup.com/St-Petersburg-CPP-User-Group"
+    },
+    {
+        "name": "Stackoverflow DevDays",
+        "type": "Conference",
+        "location": { "city": "London", "country": "UK" },
+        "url": "http://www.levelofindirection.com/journal/2009/10/29/stackoverflow-devdays-london.html"
+    },
+    {
+        "name": "Stretch",
+        "type": "Conference",
+        "location": { "city": "Budapest", "country": "Hungary" },
+        "url": "http://stretchcon.com/2014"
+    },
+    {
+        "name": "SyncConf",
+        "type": "Conference",
+        "location": { "city": "Norwich", "country": "UK" }
+    },
+    {
+        "name": "iOSCon 2017",
+        "type": "Conference",
+        "location": { "city": "London", "country": "UK" },
+        "url": "https://skillsmatter.com/conferences/8180-ioscon-2017-the-conference-for-ios-and-swift-developers"
+    },
+    {
+        "name": "CppNow",
+        "type": "Conference",
+        "location": { "city": "Aspen", "country": "USA" },
+        "url": "http://cppnow.org"
+    },
+    {
+        "name": "The Italian C++ Conference",
+        "type": "Conference",
+        "location": { "city": "Milan", "country": "Italy" },
+        "url": "http://www.italiancpp.org"
+    },
+    {
+        "name": "NDC Tech Town",
+        "type": "Conference",
+        "location": { "city": "Kongsberg", "country": "Norway" },
+        "url": "http://ndctechtown.com"
+    },
+    {
+        "name": "iOSDevUK",
+        "type": "Conference",
+        "location": { "city": "Aberystwyth", "country": "UK" },
+        "url": "http://www.iosdevuk.com"
+    },
+    {
+        "name": "C++ Edinburgh",
+        "type": "Meetup",
+        "location": { "city": "Edinburgh", "country": "UK" },
+        "url": "https://www.meetup.com/cppedinburgh/"
+    },
+    {
+        "name": "iOSCon Bytes",
+        "type": "Meetup",
+        "location": { "city": "London", "country": "UK" },
+        "url": "https://skillsmatter.com/groups/10714-ioscon-bytes"
+    },
+    {
+        "name": "Mobiconf",
+        "type": "Conference",
+        "location": { "city": "Krakow", "country": "Poland" },
+        "url": "mobiconf.org"
+    },
+    {
+        "name": "BCS Spa",
+        "type": "Meetup",
+        "location": { "city": "London", "country": "UK" },
+        "url": "http://www.bcs-spa.org/index.php?page=london-meeting-programme"
+    }
+]

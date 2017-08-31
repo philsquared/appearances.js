@@ -1,0 +1,102 @@
+body
+{
+	font-family: Helvetica, Arial;	
+}
+table
+{
+	border-collapse:collapse;
+}
+table, th, td
+{
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+td.year
+{
+	color: #AAAAAA;
+	font-size: xx-large;
+	font-weight: bold;
+	text-align: left;
+	border-bottom-color: #EEEEEE;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;	
+	padding-left: 0;
+	padding-top: 0.5em;
+}
+img.thumbnail
+{
+	width:64px;
+	height:64px;
+	float:left;
+	margin-right:1em
+}
+td.eventName
+{
+	font-size:larger;
+	border-bottom-color: #EEEEEE;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;	
+
+}
+div.location
+{
+	font-size:small;
+	color:#AAAAAA;
+}
+td.appearanceTitle
+{
+	font-family: Times New Roman;
+	border-bottom-color: #EEEEEE;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;	
+
+	border-right-color: #EEEEEE;
+	border-right-style: solid;
+	border-right-width: 1px;
+
+	padding-bottom: 0.5em;
+}
+td.month
+{
+	color: #888888;
+	background-color: #EEEEEE;
+	border-top-color: white;
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-weight: bold;
+}
+h1
+{
+	font-size: xx-large;
+	font-weight: bold;
+
+}
+.type
+{
+	font-size: x-small;
+}
+.keynote
+{
+	color:red;
+}
+.panel
+{
+	color:green;
+}
+.lightning
+{
+	color:orange;
+}
+.interview
+{
+	color:gray;
+}
+.verticalText {
+  display:inline-block;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
