@@ -125,6 +125,12 @@
         "url": "http://cppcon.com"
     },
     {
+        "name": "CppCon 2017",
+        "type": "Conference",
+        "location": { "city": "Bellevue, Washington", "country": "USA" },
+        "url": "https://cppcon.org/cppcon-2017-program/"
+    },
+    {
         "name": "F#unctional Londoners",
         "type": "Meetup",
         "location": { "city": "London", "country": "UK" },

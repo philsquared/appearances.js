@@ -454,6 +454,7 @@
         "type": "Talk",
         "title": "Functional C++ For Fun and Profit",
         "info": "http://ndcoslo.com/talk/functional-c-for-fun-profit/",
+        "video": "https://www.youtube.com/watch?v=tc9CDdJmoWE",
         "date": "2017-06-14"
     },
     {
@@ -508,8 +509,9 @@
         "date": "2017-09-04"
     },
     {
-        "event": "CppCon",
+        "event": "CppCon 2017",
         "type": "Talk",
+        "info": "http://sched.co/Bgsr",
         "title": "The Holy Grail - A Hash Array Mapped Trie for C++",
         "date": "2017-09-29"
     },
@@ -517,6 +519,7 @@
         "event": "Mobiconf",
         "type": "Talk",
         "title": "Test Driven Swift To The Max",
+        "info": "https://2017.mobiconf.org/speakers#Phil_Nash",
         "date": "2017-10-06"
     },
     {
@@ -537,6 +540,7 @@
         "event": "MeetingC++",
         "type": "Talk",
         "title": "Modern C++ Testing with Catch2",
+        "info": "http://meetingcpp.com/2017/talks/items/Modern_Cpp_Testing_with_Catch2.html",
         "date": "2017-11-09"
     },
     {
@@ -544,6 +548,12 @@
         "type": "Talk",
         "title": "Swift Driven Development",
         "date": "2017-11-01"
+    },
+    {
+        "event": "Accu London",
+        "type": "Talk",
+        "title": "Swift For The Curious",
+        "date": "2017-10-30"
     }
 ]
 
