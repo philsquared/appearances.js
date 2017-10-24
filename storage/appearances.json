@@ -462,6 +462,7 @@
         "type": "Talk",
         "title": "Swift For The Curious",
         "info": "http://ndcoslo.com/talk/swift-for-the-curious/",
+        "video": "https://www.youtube.com/watch?v=45f0B1Bvpk8&list=PL03Lrmd9CiGewi0lbnahxEpisoP5WZocX&index=39",
         "date": "2017-06-15"
     },
     {
@@ -544,16 +545,24 @@
         "date": "2017-11-09"
     },
     {
-        "event": "BCS Spa",
-        "type": "Talk",
-        "title": "Swift Driven Development",
-        "date": "2017-11-01"
-    },
-    {
         "event": "Accu London",
         "type": "Talk",
         "title": "Swift For The Curious",
+        "info": "https://www.meetup.com/ACCULondon/events/243547398/",
         "date": "2017-10-30"
+    },
+    {
+        "event": "BCS Spa London",
+        "type": "Talk",
+        "title": "Swift Driven Development",
+        "info": "https://www.eventbrite.co.uk/e/spa-315-swift-driven-development-tickets-39147633626",
+        "date": "2017-11-01"
+    },
+    {
+        "event": "Munich C++ User Group",
+        "type": "Talk",
+        "title": "Modern C++ Testing with Catch2",
+        "date": "2017-12-19"
     }
 ]
 
