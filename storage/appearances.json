@@ -514,8 +514,17 @@
         "type": "Talk",
         "info": "http://sched.co/Bgsr",
         "title": "The Holy Grail - A Hash Array Mapped Trie for C++",
+        "video": "https://www.youtube.com/watch?v=imrSQ82dYns&app=desktop",
         "date": "2017-09-29"
     },
+    {
+        "event": "CppCon 2017",
+        "type": "LightningTalk",
+        "title": "A Composable Command Line Parser",
+        "video": "https://www.youtube.com/watch?v=Od4bjLfwI-A",
+        "date": "2017-09-28"
+    },
+
     {
         "event": "Mobiconf",
         "type": "Talk",
@@ -549,6 +558,7 @@
         "type": "Talk",
         "title": "Swift For The Curious",
         "info": "https://www.meetup.com/ACCULondon/events/243547398/",
+        "video": "https://skillsmatter.com/skillscasts/10932-accu-london-october",
         "date": "2017-10-30"
     },
     {
