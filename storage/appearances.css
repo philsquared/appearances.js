@@ -27,10 +27,24 @@ td.year
 }
 img.thumbnail
 {
-	width:64px;
-	height:64px;
-	float:left;
-	margin-right:1em
+	width:80px;
+	height:80px;
+	z-index: 1;
+}
+img.playicon
+{
+	width:80px;
+	height:80px;
+}
+img.playicon-overlay
+{
+	width:60px;
+	height:60px;
+	position: absolute;
+	left:10px;
+	top:-55px;
+	z-index: 3;
+	opacity: 0.6;
 }
 td.eventName
 {
@@ -48,6 +62,15 @@ div.location
 td.appearanceTitle
 {
 	font-family: Times New Roman;
+	border-bottom-color: #EEEEEE;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;	
+
+	padding-bottom: 0.5em;
+}
+td.thumbnailCell
+{
+	width:0;
 	border-bottom-color: #EEEEEE;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;	

@@ -94,21 +94,41 @@ function writeAppearances( appearances, table ) {
 					talkAnchor.appendChild(text);
 					talkCell.appendChild(talkAnchor);
 
+					 var thumbCell = document.createElement("td");
+					 thumbCell.setAttribute( "class", "thumbnailCell" )
+
+					var thumbnailImg = null
 					if( a.thumbnail ) {
-						var img  = document.createElement("img");
-						img.setAttribute( "src", "../storage/conf_images/" + a.thumbnail )
-						img.setAttribute( "class", "thumbnail" )
-						talkCell.appendChild( img );
+						thumbnailImg = document.createElement("img");
+						thumbnailImg.setAttribute( "src", "../storage/conf_images/" + a.thumbnail )
+						thumbnailImg.setAttribute( "class", "thumbnail" )
 					}
+
 					if( a.video ) {
 						var videoAnchor  = document.createElement("a");
 						videoAnchor.setAttribute("href", a.video )
-						var text = document.createTextNode( "(video)" );
-						videoAnchor.appendChild( text );
-						var div  = document.createElement("div");
-						div.appendChild( videoAnchor );
-						talkCell.appendChild( div );
+						videoAnchor.setAttribute("style", "position:relative" )
+						var playIcon  = document.createElement("img");
+						playIcon.setAttribute( "src", "../storage/conf_images/play-icon.png" )
+
+						if( a.thumbnail )
+							playIcon.setAttribute( "class", "playicon-overlay" )
+						else
+							playIcon.setAttribute( "class", "playicon" )
+						videoAnchor.appendChild( playIcon );
+						if( thumbnailImg )
+							videoAnchor.appendChild( thumbnailImg );
+						thumbCell.appendChild( videoAnchor );
 					}
+					else if( thumbnailImg ) {
+						thumbCell.appendChild( thumbnailImg );						
+					}
+
+
+					newRow.appendChild(talkCell);
+					newRow.appendChild(thumbCell);
+
+
 					if( a.type != "Talk" ) {
 						var typeName = function() {
 								switch( a.type ) {
@@ -135,11 +155,8 @@ function writeAppearances( appearances, table ) {
 						div.setAttribute( "class", "type " + typeClass )
 						div.appendChild( text );
 						talkCell.appendChild( div );
-
 					}
 
-
-					newRow.appendChild(talkCell);
 					stats.talks++;
 
 					table.appendChild( newRow )
@@ -163,7 +180,7 @@ function writeAppearances( appearances, table ) {
 					var statsRow = document.createElement("tr");
 					var cell = document.createElement("td");
 					cell.setAttribute( "class", "stats" )
-					cell.setAttribute( "colspan", "3" )
+					cell.setAttribute( "colspan", "4" )
 					cell.setAttribute( "style", "text-align:right")
 					var text = document.createTextNode( summary );
 					cell.appendChild(text);
@@ -180,7 +197,7 @@ function writeAppearances( appearances, table ) {
 				var newRow = document.createElement("tr");
 				var newCell = document.createElement("td");
 				newCell.setAttribute( "class", "year" )
-				newCell.setAttribute( "colspan", "3" )
+				newCell.setAttribute( "colspan", "4" )
 				var text = document.createTextNode( year );
 				newCell.appendChild(text);
 				newRow.appendChild(newCell);
