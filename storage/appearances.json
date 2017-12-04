@@ -477,6 +477,7 @@
         "title": "Functional C++ For Fun and Profit",
         "info": "http://www.italiancpp.org/sessioni-conference-2017/#9",
         "video": "https://www.youtube.com/watch?v=rxmgkbQrah0&app=desktop",
+        "thumbnail": "itcpp2017.jpg",
         "date": "2017-06-17"
     },
     {
@@ -492,6 +493,7 @@
         "title": "Swift Driven Development",
         "info": "https://skillsmatter.com/meetups/9115-swift-driven-development-with-phil-nash",
         "video": "https://skillsmatter.com/skillscasts/9825-swift-driven-development-with-phil-nash",
+        "thumbnail": "iosconbytes2017.jpg",
         "date": "2017-07-11"
     },
     {
@@ -507,6 +509,7 @@
         "title": "Modern C++ Testing with Catch2",
         "info": "https://www.meetup.com/cppedinburgh/events/240080355/",
         "video": "https://www.youtube.com/watch?v=grC0S6ZK59U",
+        "thumbnail": "cppedinburgh2017.jpg",
         "date": "2017-08-14"
     },
     {
@@ -521,6 +524,7 @@
         "info": "http://sched.co/Bgsr",
         "title": "The Holy Grail - A Hash Array Mapped Trie for C++",
         "video": "https://www.youtube.com/watch?v=imrSQ82dYns&app=desktop",
+        "thumbnail": "cppcon2017.jpg",
         "date": "2017-09-29"
     },
     {
@@ -528,6 +532,7 @@
         "type": "LightningTalk",
         "title": "A Composable Command Line Parser",
         "video": "https://www.youtube.com/watch?v=Od4bjLfwI-A",
+        "thumbnail": "cppcon2017-clara.jpg",
         "date": "2017-09-28"
     },
 
@@ -537,6 +542,7 @@
         "title": "Swift Driven Development",
         "info": "https://2017.mobiconf.org/speakers#Phil_Nash",
         "video": "https://www.youtube.com/watch?v=QVtjgnj7lSo&list=PLr5cF6ekyIDgWee0wtwMKSGcoMvt5fkn_",
+        "thumbnail": "MobiConf2017.jpg",
         "date": "2017-10-06"
     },
     {
@@ -584,6 +590,7 @@
         "title": "Swift For The Curious",
         "info": "https://www.meetup.com/ACCULondon/events/243547398/",
         "video": "https://skillsmatter.com/skillscasts/10932-accu-london-october",
+        "thumbnail": "accu-london-2017.jpg",
         "date": "2017-10-30"
     },
     {
@@ -604,7 +611,7 @@
         "type": "LightningTalk",
         "title": "A Composable Command Line Parser",
         "info": "https://www.meetup.com/CppLondon/events/243386512/",
-        "video": "https://www.youtube.com/watch?v=vIVZsVneVDg",
+        "video": "https://youtu.be/vIVZsVneVDg?t=45m38s",
         "date": "2017-10-26"
     }
 ]
