@@ -534,8 +534,9 @@
     {
         "event": "Mobiconf",
         "type": "Talk",
-        "title": "Test Driven Swift To The Max",
+        "title": "Swift Driven Development",
         "info": "https://2017.mobiconf.org/speakers#Phil_Nash",
+        "video": "https://www.youtube.com/watch?v=QVtjgnj7lSo&list=PLr5cF6ekyIDgWee0wtwMKSGcoMvt5fkn_",
         "date": "2017-10-06"
     },
     {
@@ -570,6 +571,12 @@
         "title": "Modern C++ Testing with Catch2",
         "info": "http://meetingcpp.com/2017/talks/items/Modern_Cpp_Testing_with_Catch2.html",
         "date": "2017-11-09"
+    },
+    {
+        "event": "ADC 2017",
+        "type": "LightningTalk",
+        "title": "The Stand Up",
+        "date": "2017-11-15"
     },
     {
         "event": "Accu London",

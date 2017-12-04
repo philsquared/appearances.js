@@ -301,6 +301,12 @@
         "type": "Meetup",
         "location": { "city": "London", "country": "UK" },
         "url": "https://www.meetup.com/CppLondon/"
+    },
+    {
+        "name": "ADC 2017",
+        "type": "Conference",
+        "location": { "city": "London", "country": "UK" },
+        "url": "https://juce.com/adc-2017"
     }
     
 ]
