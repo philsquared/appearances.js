@@ -146,13 +146,7 @@
         "name": "MeetingC++",
         "type": "Conference",
         "location": { "city": "Berlin", "country": "Germany" },
-        "url": "http://meetingcpp.com/index.php/mcpp2014.html"
-    },
-    {
-        "name": "MeetingC++",
-        "type": "Conference",
-        "location": { "city": "Berlin", "country": "Germany" },
-        "url": "https://meetingcpp.com/index.php/schedule16.html"
+        "url": "http://meetingcpp.com"
     },
     {
         "name": "MeetingC++ London",
@@ -301,5 +295,12 @@
         "type": "Meetup",
         "location": { "city": "London", "country": "UK" },
         "url": "http://www.bcs-spa.org/index.php?page=london-meeting-programme"
+    },
+    {
+        "name": "C++ London",
+        "type": "Meetup",
+        "location": { "city": "London", "country": "UK" },
+        "url": "https://www.meetup.com/CppLondon/"
     }
+    
 ]

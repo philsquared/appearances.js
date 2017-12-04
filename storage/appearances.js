@@ -36,6 +36,10 @@ function writeAppearances( appearances, table ) {
 		var currentMonth = -1
 		var monthData = []
 
+		var stats = {
+			talks: 0
+		}
+
 		var writeMonthRow = function( table ) {
 
 				for( var i = 0; i < monthData.length; ++i ) {
@@ -136,6 +140,7 @@ function writeAppearances( appearances, table ) {
 
 
 					newRow.appendChild(talkCell);
+					stats.talks++;
 
 					table.appendChild( newRow )
 				}
@@ -148,6 +153,26 @@ function writeAppearances( appearances, table ) {
 			var month = date.getMonth()
 			if( year != currentYear ) {
 				writeMonthRow( table )
+
+				if( stats.talks > 0 ) {
+					if( stats.talks == 1 )
+						var summary = "1 talk"
+					else
+						var summary = stats.talks + " talks"
+
+					var statsRow = document.createElement("tr");
+					var cell = document.createElement("td");
+					cell.setAttribute( "class", "stats" )
+					cell.setAttribute( "colspan", "3" )
+					cell.setAttribute( "style", "text-align:right")
+					var text = document.createTextNode( summary );
+					cell.appendChild(text);
+					statsRow.appendChild(cell);
+					table.appendChild(statsRow);
+					stats = { talks: 0 }
+				}
+
+
 				currentYear = year;
 				currentMonth = -1
 				monthData = []
