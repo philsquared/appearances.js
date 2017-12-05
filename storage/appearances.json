@@ -149,8 +149,10 @@
         "type": "Talk",
         "title": "Agile and Mobile - do they work together as well as they sound?",
         "info": "http://agileonthebeach.com/2013-programme/2013-videos-and-presentations",
+        "video": "https://www.youtube.com/watch?v=6kY9JZPy82I",
         "thumbnail": "aotb2013.jpg",
-        "date": "2013-09-05"
+        "date": "2013-09-05",
+        "notes": "video quality, especially audio, very bad"
     },
     {
         "event": "Agile On The Beach",
@@ -276,7 +278,8 @@
         "info": "http://cppcon2015.sched.org/event/a7e0138f6d94017d27e0a8f5b127c23d#.Vets-rSA3FI",
         "video": "https://www.youtube.com/watch?v=gdzP3pAC6UI",
         "thumbnail": "cppcon2015.jpg",
-        "date": "2015-09-22"
+        "date": "2015-09-22",
+        "nodes": "derailed a bit by technical difficulties"
     },
     {
         "event": "CppCon 2015",
@@ -300,7 +303,8 @@
         "info": "http://www.meetup.com/FSharpLondon/events/223918135/t/ra1_te/",
         "video": "https://skillsmatter.com/skillscasts/6810-seeking-simplicity-with-phil-nash",
         "thumbnail": "functional2015-simplicity.jpg",
-        "date": "2015-10-08"
+        "date": "2015-10-08",
+        "notes": "video starts with 'The Stand Up' lightning talk"
     },
     {
         "event": "F#unctional Londoners",
@@ -308,7 +312,8 @@
         "title": "The Stand Up",
         "video": "https://skillsmatter.com/skillscasts/6810-seeking-simplicity-with-phil-nash",
         "thumbnail": "functional2015-thestandup.jpg",
-        "date": "2015-10-08"
+        "date": "2015-10-08",
+        "notes": "video follows on with 'The Stand Up' 'Seeking Simplicity'"
     },
     {
         "event": "Aylesbury Testers",
@@ -431,7 +436,9 @@
         "title": "Test Driving Swift To The Max - with or without the tests!",
         "info": "https://skillsmatter.com/conferences/8180-ioscon-2017-the-conference-for-ios-and-swift-developers#program",
         "video": "https://skillsmatter.com/skillscasts/9547-workshop-test-driving-swift-to-the-max-with-or-without-the-tests",
-        "date": "2017-03-31"
+        "thumbnail": "iosCon2017.jpg",
+        "date": "2017-03-31",
+        "notes": "requires (free) login on the SkillsMatter site"
     },
     {
         "event": "Accu 2017",
@@ -439,6 +446,7 @@
         "title": "Functional C++ For Fun and Profit",
         "info": "https://conference.accu.org/site/stories/2017/sessions.html#XFunctionalCForFunAndProfit",
         "video": "https://www.youtube.com/watch?v=8hW-LT8qFT0",
+        "thumbnail": "Accu2017.jpg",
         "date": "2017-04-26"
     },
     {
@@ -453,6 +461,7 @@
         "title": "The Holy Grail - A Persistent Hash Array Mapped Trie for C++",
         "info": "https://cppnow2017.sched.com/event/A8Iw",
         "video": "https://www.youtube.com/watch?v=WT9kmIE3Uis",
+        "thumbnail": "cppnow2017.jpg",
         "date": "2017-05-19"
     },
     {
@@ -461,6 +470,7 @@
         "title": "Functional C++ For Fun and Profit",
         "info": "http://ndcoslo.com/talk/functional-c-for-fun-profit/",
         "video": "https://www.youtube.com/watch?v=tc9CDdJmoWE",
+        "thumbnail": "NdcOslo2017-funcpp.jpg",
         "date": "2017-06-14"
     },
     {
@@ -469,7 +479,9 @@
         "title": "Swift For The Curious",
         "info": "http://ndcoslo.com/talk/swift-for-the-curious/",
         "video": "https://www.youtube.com/watch?v=45f0B1Bvpk8&list=PL03Lrmd9CiGewi0lbnahxEpisoP5WZocX&index=39",
-        "date": "2017-06-15"
+        "thumbnail": "NdcOslo2017-swift.jpg",
+        "date": "2017-06-15",
+        "notes": "Not the best version - see the ACCU London one instead"
     },
     {
         "event": "The Italian C++ Conference",
@@ -612,6 +624,7 @@
         "title": "A Composable Command Line Parser",
         "info": "https://www.meetup.com/CppLondon/events/243386512/",
         "video": "https://youtu.be/vIVZsVneVDg?t=45m38s",
+        "thumbnail": "CppLondonOct2017.jpg",
         "date": "2017-10-26"
     }
 ]

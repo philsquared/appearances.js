@@ -89,6 +89,7 @@ function writeAppearances( appearances, table ) {
 					talkCell.setAttribute( "class", "appearanceTitle" )
 					var text = document.createTextNode( a.title );
 					var talkAnchor  = document.createElement("a");
+
 					if( a.info )
 						talkAnchor.setAttribute("href", a.info )
 					talkAnchor.appendChild(text);
@@ -107,6 +108,7 @@ function writeAppearances( appearances, table ) {
 					if( a.video ) {
 						var videoAnchor  = document.createElement("a");
 						videoAnchor.setAttribute("href", a.video )
+						videoAnchor.setAttribute( "class", "thumbnailLink" )
 						videoAnchor.setAttribute("style", "position:relative" )
 						var playIcon  = document.createElement("img");
 						playIcon.setAttribute( "src", "../storage/conf_images/play-icon.png" )
@@ -118,7 +120,20 @@ function writeAppearances( appearances, table ) {
 						videoAnchor.appendChild( playIcon );
 						if( thumbnailImg )
 							videoAnchor.appendChild( thumbnailImg );
-						thumbCell.appendChild( videoAnchor );
+
+						var tooltip = document.createElement("div")
+						tooltip.setAttribute( "class", "tooltiptext" )
+						var tooltipText = document.createTextNode( "link to video" );
+						tooltip.appendChild( tooltipText )
+
+						if( a.notes ) {
+							tooltip.appendChild( document.createElement("br") )
+							var tooltipText2 = document.createTextNode( "(" + a.notes + ")" );
+							tooltip.appendChild( tooltipText2 )
+						}
+						videoAnchor.appendChild( tooltip );
+
+						thumbCell.appendChild( videoAnchor );						
 					}
 					else if( thumbnailImg ) {
 						thumbCell.appendChild( thumbnailImg );						
