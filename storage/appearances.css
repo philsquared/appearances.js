@@ -125,7 +125,7 @@ h1
 }
 
 .thumbnailLink .tooltiptext {
-   	visibility: hidden;
+    visibility: hidden;
     width: 200px;
     background-color: black;
     color: #fff;
@@ -134,19 +134,18 @@ h1
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    top: 150%;
-    left: 50%;
-    margin-left: -60px;
+    top: -40px;
+    right: 110%;
 }
 .thumbnailLink .tooltiptext::after {
     content: "";
     position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent black transparent;
+    border-color: transparent transparent transparent black;
 }
 
 .thumbnailLink:hover .tooltiptext {

@@ -123,7 +123,7 @@ function writeAppearances( appearances, table ) {
 
 						var tooltip = document.createElement("div")
 						tooltip.setAttribute( "class", "tooltiptext" )
-						var tooltipText = document.createTextNode( "link to video" );
+						var tooltipText = document.createTextNode( "click for video..." );
 						tooltip.appendChild( tooltipText )
 
 						if( a.notes ) {
