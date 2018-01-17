@@ -424,7 +424,7 @@
         "date": "2017-02-25"
     },
     {
-        "event": "AppDevCon 2017",
+        "event": "AppDevCon",
         "type": "Talk",
         "title": "Test Driving Swift To The Max",
         "info": "http://appdevcon.nl/session/phil-nash-test-driving-swift-to-the-max/",
@@ -641,6 +641,12 @@
         "type": "Talk",
         "title": "Swift Driven Development",
         "date": "2018-04-11"
+    },
+    {
+        "event": "AppDevCon",
+        "type": "Talk",
+        "title": "Option(al) Is Not a Failure",
+        "date": "2018-03-16"
     }
 ]
 
