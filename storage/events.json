@@ -307,6 +307,18 @@
         "type": "Conference",
         "location": { "city": "London", "country": "UK" },
         "url": "https://juce.com/adc-2017"
+    },
+    {
+        "name": "Accu 2018",
+        "type": "Conference",
+        "location": { "city": "Bristol", "country": "UK" },
+        "url": "https://conference.accu.org"
+    },
+    {
+        "name": "CppFRUG",
+        "type": "Meetup",
+        "location": { "city": "Paris", "country": "France" },
+        "url": "https://www.meetup.com/User-Group-Cpp-Francophone"
     }
     
 ]

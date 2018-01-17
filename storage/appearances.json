@@ -563,6 +563,7 @@
         "type": "Talk",
         "title": "The Holy Grail - A Hash Array Mapped Trie for C++",
         "info": "http://ndctechtown.com/talk/the-holy-grail-a-hash-array-mapped-trie-for-c/",
+        "video": "http://bit.ly/2CDhEBl",
         "date": "2017-10-19"
     },
     {
@@ -627,6 +628,19 @@
         "video": "http://bit.ly/2Cy0fdq",
         "thumbnail": "CppLondonOct2017.jpg",
         "date": "2017-10-26"
+    },
+    {
+        "event": "CppFRUG",
+        "type": "Talk",
+        "title": "TBA...",
+        "info": "https://www.meetup.com/User-Group-Cpp-Francophone/events/246863071/",
+        "date": "2018-01-30"
+    },
+    {
+        "event": "Accu 2018",
+        "type": "Talk",
+        "title": "Swift Driven Development",
+        "date": "2018-04-11"
     }
 ]
 
