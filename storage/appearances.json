@@ -632,7 +632,7 @@
     {
         "event": "CppFRUG",
         "type": "Talk",
-        "title": "TBA...",
+        "title": "Modern C++ Testing with Catch2",
         "info": "https://www.meetup.com/User-Group-Cpp-Francophone/events/246863071/",
         "date": "2018-01-30"
     },
