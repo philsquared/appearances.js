@@ -591,6 +591,8 @@
         "type": "Talk",
         "title": "Modern C++ Testing with Catch2",
         "info": "http://meetingcpp.com/2017/talks/items/Modern_Cpp_Testing_with_Catch2.html",
+        "video": "http://bit.ly/2DzJSkF",
+        "thumbnail": "meetingcpp2017.jpg",        
         "date": "2017-11-09"
     },
     {
