@@ -565,7 +565,6 @@
         "title": "The Holy Grail - A Hash Array Mapped Trie for C++",
         "info": "http://ndctechtown.com/talk/the-holy-grail-a-hash-array-mapped-trie-for-c/",
         "video": "http://bit.ly/2CDhEBl",
-        "thumbnail": "NdcTechTown2017.jpg",
         "date": "2017-10-19"
     },
     {
@@ -573,6 +572,7 @@
         "type": "Talk",
         "title": "Modern C++ Testing with Catch2",
         "info": "http://ndctechtown.com/talk/modern-c-testing-with-catch2/",
+        "thumbnail": "NdcTechTown2017.jpg",
         "date": "2017-10-20"
     },
     {
