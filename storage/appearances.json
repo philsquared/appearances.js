@@ -565,6 +565,7 @@
         "title": "The Holy Grail - A Hash Array Mapped Trie for C++",
         "info": "http://ndctechtown.com/talk/the-holy-grail-a-hash-array-mapped-trie-for-c/",
         "video": "http://bit.ly/2CDhEBl",
+        "thumbnail": "NdcTechTown2017.jpg",
         "date": "2017-10-19"
     },
     {
@@ -578,12 +579,16 @@
         "event": "MeetingC++",
         "type": "LightningTalk",
         "title": "The Stand Up",
+        "video": "http://bit.ly/2DrS2YW",
+        "thumbnail": "meetingcpp2017-su.jpg",
         "date": "2017-11-11"
     },
     {
         "event": "MeetingC++",
         "type": "LightningTalk",
         "title": "A Composable Composable Line Parser",
+        "video": "http://bit.ly/2rwTWWC",        
+        "thumbnail": "meetingcpp2017-cclp.jpg",
         "date": "2017-11-11"
     },
     {
